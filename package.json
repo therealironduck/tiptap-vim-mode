@@ -20,12 +20,12 @@
     "@rollup/plugin-commonjs": "^29.0.2",
     "@tiptap/core": "^3.21.0",
     "@tiptap/pm": "^3.21.0",
-    "oxfmt": "^0.42.0",
+    "oxfmt": "^0.43.0",
     "oxlint": "^1.57.0",
     "rollup": "^4.60.0",
     "rollup-plugin-auto-external": "^2.0.0",
     "rollup-plugin-sourcemaps": "^0.6.3",
-    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-typescript2": "^0.37.0",
     "typescript": "^6.0.2"
   },
   "peerDependencies": {
