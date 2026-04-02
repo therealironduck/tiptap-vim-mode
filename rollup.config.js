@@ -27,7 +27,7 @@ const config = {
     sourcemaps(),
     babel(),
     commonjs(),
-    typescript(),
+    typescript({ useTsconfigDeclarationDir: true }),
   ],
 };
 

@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#editor {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 2rem 3rem 3rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #1a1a1a;
+  background: #fafafa;
+}
+
+.ProseMirror {
+  outline: none;
+  min-height: calc(100vh - 5rem);
+}
+
+.ProseMirror h1 {
+  font-size: 2rem;
+  margin: 0 0 0.5rem;
+  font-family: system-ui, sans-serif;
+}
+
+.ProseMirror h2 {
+  font-size: 1.3rem;
+  margin: 1.5rem 0 0.5rem;
+  font-family: system-ui, sans-serif;
+  color: #444;
+}
+
+.ProseMirror p {
+  margin: 0.75rem 0;
+}
+
+.ProseMirror ul {
+  margin: 0.75rem 0;
+  padding-left: 1.5rem;
+}
+
+.ProseMirror li {
+  margin: 0.25rem 0;
+}
+
+#mode-indicator {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 4px 12px;
+  background: #2d2d2d;
+  color: #e0e0e0;
+  font-family: ui-monospace, "Courier New", monospace;
+  font-size: 13px;
+  box-sizing: border-box;
+  user-select: none;
+  z-index: 100;
+}

@@ -12,7 +12,8 @@
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "fmt": "oxfmt",
-    "fmt:check": "oxfmt --check"
+    "fmt:check": "oxfmt --check",
+    "playground": "cd playground && bun run dev"
   },
   "devDependencies": {
     "@rollup/plugin-babel": "^7.0.0",
