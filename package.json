@@ -17,18 +17,18 @@
   "devDependencies": {
     "@rollup/plugin-babel": "^7.0.0",
     "@rollup/plugin-commonjs": "^29.0.2",
-    "@tiptap/core": "^3.20.4",
-    "@tiptap/pm": "^3.20.4",
-    "oxfmt": "^0.41.0",
-    "oxlint": "^1.56.0",
-    "rollup": "^4.59.0",
+    "@tiptap/core": "^3.21.0",
+    "@tiptap/pm": "^3.21.0",
+    "oxfmt": "^0.42.0",
+    "oxlint": "^1.57.0",
+    "rollup": "^4.60.0",
     "rollup-plugin-auto-external": "^2.0.0",
     "rollup-plugin-sourcemaps": "^0.6.3",
     "rollup-plugin-typescript2": "^0.36.0",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   },
   "peerDependencies": {
-    "@tiptap/core": "^3.20.4",
-    "@tiptap/pm": "^3.20.4"
+    "@tiptap/core": "^3.21.0",
+    "@tiptap/pm": "^3.21.0"
   }
 }
