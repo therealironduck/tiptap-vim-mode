@@ -35,3 +35,12 @@ This is a [Tiptap](https://tiptap.dev/) editor extension that adds Vim keybindin
 
 - Conventional commits are enforced on PRs (see `.commit-me.json` for allowed types: `feat`, `fix`, `chore`, `docs`, `refactor`, `style`, `test`, `build`, `ci`, `perf`, `revert`)
 - CI runs lint, format check, and build on every PR
+
+## Active Technologies
+
+- TypeScript (strict mode, ESNext target) + Vite (playground dev server + HMR), Tiptap (`@tiptap/core`, `@tiptap/pm`, `@tiptap/starter-kit`), local vim-mode extension via Vite alias (001-local-playground)
+- N/A — playground holds no persistent state (001-local-playground)
+
+## Recent Changes
+
+- 001-local-playground: Added TypeScript (strict mode, ESNext target) + Vite (playground dev server + HMR), Tiptap (`@tiptap/core`, `@tiptap/pm`, `@tiptap/starter-kit`), local vim-mode extension via Vite alias

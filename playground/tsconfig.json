@@ -20,7 +20,18 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* Path aliases — pin all @tiptap packages to playground/node_modules so
+       the extension source (resolved via @tiptap-vim-mode alias) shares the
+       same type universe as the playground, avoiding duplicate-package errors. */
+    "paths": {
+      "@tiptap-vim-mode": ["../src/index.ts"],
+      "@tiptap/core": ["./node_modules/@tiptap/core"],
+      "@tiptap/pm": ["./node_modules/@tiptap/pm"],
+      "@tiptap/pm/*": ["./node_modules/@tiptap/pm/*"],
+      "@tiptap/starter-kit": ["./node_modules/@tiptap/starter-kit"]
+    }
   },
   "include": ["src"]
 }
