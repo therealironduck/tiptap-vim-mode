@@ -22,6 +22,7 @@ There is no test framework configured yet.
 This is a [Tiptap](https://tiptap.dev/) editor extension that adds Vim keybinding support. It is in early development and not production-ready.
 
 **Key relationships:**
+
 - The extension is built on `@tiptap/core` (`Extension.create()`), which wraps ProseMirror under the hood
 - `@tiptap/core` and `@tiptap/pm` are **peer dependencies** — consumers must install them
 - Rollup builds to both ESM (`dist/index.js`) and CJS (`dist/index.cjs.js`) with TypeScript declarations
