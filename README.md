@@ -11,3 +11,12 @@ A fresh Tiptap extension.
 ```bash
 npm install @therealironduck/tiptap-vim-mode
 ```
+
+## Supported Motions
+
+| Key | Alias | Mode   | Behavior                                                       |
+| --- | ----- | ------ | -------------------------------------------------------------- |
+| `h` | `←`   | Normal | Move cursor one character left within the current block        |
+| `l` | `→`   | Normal | Move cursor one character right within the current block       |
+| `j` | `↓`   | Normal | Move cursor to the same column in the next block/paragraph     |
+| `k` | `↑`   | Normal | Move cursor to the same column in the previous block/paragraph |

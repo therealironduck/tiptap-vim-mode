@@ -1,8 +1,8 @@
 import { Extension } from "@tiptap/core";
 import type { Editor } from "@tiptap/core";
 import { Plugin, PluginKey } from "@tiptap/pm/state";
-
-export type Mode = "NORMAL" | "INSERT";
+import { hjklMotions } from "./motions";
+import { Mode } from "./types/general";
 
 // Not exported: PluginKey is an internal detail. Consumers use getVimMode() instead.
 const vimModePluginKey = new PluginKey<Mode>("vimMode");
@@ -44,9 +44,10 @@ const VimMode = Extension.create({
             }
 
             if (mode === "NORMAL") {
-              // Deviation from Vim: most motions not yet implemented.
-              // Block all other keypresses in Normal mode to prevent
-              // unintended document edits until motion support is added.
+              const handler = hjklMotions[event.key];
+              if (handler) {
+                return handler(view);
+              }
               return true;
             }
 

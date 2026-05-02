@@ -38,6 +38,8 @@ This is a [Tiptap](https://tiptap.dev/) editor extension that adds Vim keybindin
 
 ## Active Technologies
 
+- TypeScript (strict mode) — `typescript ^6.0.2` + `@tiptap/core ^3.21.0`, `@tiptap/pm ^3.21.0` (peer deps only — no new additions) (002-hjkl-normal-mode-movement)
+
 - TypeScript (strict mode, ESNext target) + Vite (playground dev server + HMR), Tiptap (`@tiptap/core`, `@tiptap/pm`, `@tiptap/starter-kit`), local vim-mode extension via Vite alias (001-local-playground)
 - N/A — playground holds no persistent state (001-local-playground)
 
