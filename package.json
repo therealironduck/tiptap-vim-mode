@@ -20,7 +20,7 @@
     "@rollup/plugin-commonjs": "^29.0.2",
     "@tiptap/core": "^3.21.0",
     "@tiptap/pm": "^3.21.0",
-    "oxfmt": "^0.46.0",
+    "oxfmt": "^0.47.0",
     "oxlint": "^1.57.0",
     "rollup": "^4.60.0",
     "rollup-plugin-auto-external": "^2.0.0",
